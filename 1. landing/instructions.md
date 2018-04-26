@@ -1,4 +1,4 @@
-# Tutoriel HTML/CSS destiné aux élèves de l'EFAP 3A 2016-2017
+# Tutoriel HTML/CSS destiné aux élèves de l'EFAP 1ARD 2017-2018
 
 ## Avant-propos
 L'objectif de cette introduction au HTML/CSS est de :
@@ -12,7 +12,7 @@ Pour atteindre cet objectif, grâce aux quelques notions vues en classe (préreq
 - Renommez le dossier "landing" en "landing_EFAP_301_DUPONT_Martin"
 - Compressez le dossier entier en zip (clic droit sur le dossier > Compresser).
 ![Compress image](images/compress.png)
-- Envoyez-moi par mail le dossier compressé avec l'objet "Landing EFAP 301 DUPONT Martin"
+- Envoyez-moi par mail le dossier compressé avec l'objet "Landing EFAP 1ARD DUPONT Martin"
 
 Bon courage !
 

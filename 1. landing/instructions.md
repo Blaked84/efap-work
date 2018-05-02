@@ -23,7 +23,7 @@ Nous allons nous assurer d'avoir le parfait environnement de travail pour coder 
 2. Ouvrez l'éditeur et allez personnaliser deux petits paramètres de l'application : Menu "Atom" > "Preferences" (ou Settings sur PC) > "Editor" > Cochez les options "Show Indent Guide" & "Show Invisibles". (ceci va nous aider à indenter proprement : cf. suite). Fermez ensuite tous les onglets présents de façon à avoir :
 ![Image of Atom](images/atom-empty.png)
 
-3. Récupérez le dossier ["landing"](https://github.com/barralf/landing-efap-instructions/blob/master/landing.zip) avec les images (téléchargez-le en cliquant sur le bouton `Download`). Glissez/déposez le dossier dans l'éditeur de texte. (#DragAndDrop)
+3. Récupérez le dossier ["landing"](landing.zip) avec les images (téléchargez-le en cliquant sur le bouton `Download`). Glissez/déposez le dossier dans l'éditeur de texte. (#DragAndDrop)
 4. Sur l'arbre de navigation de gauche, dans le dossier "landing":
   - clic droit : New file. Le sauvegarder sous le nom `index.html`.
   - faire la même chose pour `style.css`.

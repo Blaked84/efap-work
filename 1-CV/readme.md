@@ -383,11 +383,7 @@ Pour résumer, ensemble nous avons fait beaucoup de choses :
 - structuré le contenu d'une page Web grâce aux balises HTML
 - stylisé les éléments balisés :
   - à la main dans le fichier CSS `style.css`
-  - en important des polices et icônes sympathiques
-  - en utilisant un framework CSS pour styliser plus vite en utilisant des classes préfabriquées !
-- lié deux pages Web statiques d'un site Web
-- rajouté un formulaire en utilisant et en **adaptant des composants préfabriqués CSS**
-- et peut-être rendu une page Web responsive (c'est dur ça ^^...)
+  - en important des polices
 
 # Pour aller plus loin
 Voici des liens utiles et très intéressants !

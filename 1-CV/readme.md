@@ -27,7 +27,7 @@ Nous allons nous assurer d'avoir le parfait environnement de travail pour coder 
 
 3. Récupérez le dossier ["cv"](https://github.com/Blaked84/efap-work/blob/master/1-CV/cv.zip) avec les images (téléchargez-le en cliquant sur le bouton `Download`). Glissez/déposez le dossier dans l'éditeur de texte. (#DragAndDrop)
 ![](./images/add_folder_sublime.gif)
-4. Sur l'arbre de navigation de gauche, dans le dossier "cs" vous avez les 2 fichiers sur lesquels nous allons travailler :
+4. Sur l'arbre de navigation de gauche, dans le dossier "cv" vous avez les 2 fichiers sur lesquels nous allons travailler :
   - `index.html`.
   - `style.css`.
 
@@ -46,7 +46,7 @@ NB : Vous pouvez vous amuser à utiliser l'inspecteur navigateur (clic droit--> 
 
 ## 2.1. Insérons le squelette standard d'une page `.html`
 * Dans votre document `"index.html"`, tapez `<html` et taper sur la touche `Tab` de votre clavier (Raccourci clavier suite à la suggestion de Sublime Text)
-![Image of Atom auto-completion](images/atom-auto-completion.png)
+![](./images/image16.png)
 * Que de temps gagné ! Comme par miracle, tout le squelette standard d'une page HTML apparaît :
     - la doctype de votre document : `<!DOCTYPE html>`
     - les balises `<html>`, `<head>` et `<body>`
@@ -102,7 +102,7 @@ au lieu de
 En sauvegardant le fichier HTML (File > Save) et en rechargeant la page de votre navigateur, vous devriez avoir :
 ![](./images/image1.png)
 
-Asture le point dans l'onglet index.html indique que le fichier n'est pas enregistré. Si il est enregistré, il devient une croix.
+Astuce : le point dans l'onglet index.html indique que le fichier n'est pas enregistré. Si il est enregistré, il devient une croix.
 ![](./images/image2.png)
 
 Le résultat est décevant, n'est-ce pas ? Pas de panique ! C'est normal car nous n'avons pas encore touché au CSS et à peine au HTML !
@@ -131,7 +131,7 @@ Ajoutez-y les images/icônes au dessus de chaque caractéristique. Pour cela, vo
 
 ```html
 <!-- Code à copier-coller intelligemment AU BON ENDROIT dans le fichier index.html-->
-<img src="images/profile_pic.jpg">
+<img src="images/profile_pic.jpg" alt="Photo de profile">
 ```
 
 A ce stade, on est parvenu à une page Web structurée et lisible bien qu'un peu archaïque. En fait, les premières pages Web ressemblaient à ça et en particulier celles du [premier site Web historique](http://info.cern.ch/hypertext/WWW/TheProject.html) . Vous êtes donc au niveau de la crème de la crème des chercheurs scientifiques du monde ... mais des années 90 ! 😜
@@ -333,7 +333,7 @@ h3 {
 }
 ```
 
-Si tout c'est bien passé votre CV ressemble à :
+Si tout s'est bien passé votre CV ressemble à :
 ![](./images/image10.png)
 
 ## 3.6 A vous de jouer !
@@ -347,13 +347,13 @@ On va maintenant s'occuper de la photo.
 On va ajouter dans le fichier HTML une classe `my_photo`.
 La ligne doit maintenant ressember à :
 ```html
-			<img class="my_photo" src="images/profile_pic.jpg">
+<img class="my_photo" src="images/profile_pic.jpg" alt="Photo de profile">
 ```
 
 Puis dans le css, on va ajouter des propriétés à cette classe pour avoir une image ronde:
 ```css
 .my_photo {
-	border-radius: 75px;
+  border-radius: 75px;
   height: 150px;
   width: 150px;
 }
@@ -361,7 +361,40 @@ Puis dans le css, on va ajouter des propriétés à cette classe pour avoir une 
 ![](./images/image12.png)
 
 ## 4 Personnalisation
-### 4.1 Remplacez avec votre nom et prénom
-### 4.2 Ajoutez une autre expérience et étude.
-### 4.3 Changer la photo
-### 4.4 Page de contact
+### 4.1 Remplacez avec votre nom et prénom, expériences et études
+
+Remplacer dans la page les information génériques du DM pour qu'elle soit maintenant à votre nom.
+Modifiez également les études et expérience avec les vôtres (ou alors vous pouvez en inventer !)
+
+### 4.2 Personnaliser le CSS
+Il est temps de choisir vos propres couleurs, tailles de polices, marge etc.
+Modifiez le CSS à pour personnaliser votre CV.
+
+### 4.3 Ajoutez une autre expérience et étude.
+### 4.4 Changer la photo
+Il vous faudra mettre une photo dans le dossier `images` puis remplacer son nom dans la balise `<img>`
+Vous pouvez prendre example sur avec la phot existante.
+### 4.5 Page de contact
+
+
+# 5. Conclusion & Debriefing
+Si vous en êtes arrivé jusque là, BRAVO ! 🤙💪👍👏
+Pour résumer, ensemble nous avons fait beaucoup de choses :
+- structuré le contenu d'une page Web grâce aux balises HTML
+- stylisé les éléments balisés :
+  - à la main dans le fichier CSS `style.css`
+  - en important des polices et icônes sympathiques
+  - en utilisant un framework CSS pour styliser plus vite en utilisant des classes préfabriquées !
+- lié deux pages Web statiques d'un site Web
+- rajouté un formulaire en utilisant et en **adaptant des composants préfabriqués CSS**
+- et peut-être rendu une page Web responsive (c'est dur ça ^^...)
+
+# Pour aller plus loin
+Voici des liens utiles et très intéressants !
+- Web Design in 4 minutes : http://jgthms.com/web-design-in-4-minutes/ (really nice one !)
+- Learn more about HTML/CSS : http://marksheet.io/ (nice one !)
+- Liste des balises HTML https://developer.mozilla.org/fr/docs/Web/HTML/Element
+- Liste des propriétés CSS : http://cssreference.io/ (very good one !)
+- Liste 2 des propriétés CSS : https://developer.mozilla.org/fr/docs/Web/CSS/Reference
+- Tutoriel 1 HTML/CSS OpenClassrooms : https://openclassrooms.com/courses/prenez-en-main-bootstrap (very complete one but long)
+- Tutoriel 2 HTML/CSS Le Wagon : http://bit.ly/2dS5cC8 (**EXCELLENT** one and really efficient but you need to pay sadly... :S )

@@ -25,7 +25,7 @@ Nous allons nous assurer d'avoir le parfait environnement de travail pour coder 
 2. Ouvrez l'éditeur et allez personnaliser paramètre de l'application dans "View" > "Side Bar" > "Show Side Bar"
 ![](./images/image13.png)
 
-3. Récupérez le dossier ["cv"](cv.zip) avec les images (téléchargez-le en cliquant sur le bouton `Download`). Glissez/déposez le dossier dans l'éditeur de texte. (#DragAndDrop)
+3. Récupérez le dossier ["cv"](https://github.com/Blaked84/efap-work/blob/master/1-CV/cv.zip) avec les images (téléchargez-le en cliquant sur le bouton `Download`). Glissez/déposez le dossier dans l'éditeur de texte. (#DragAndDrop)
 ![](./images/add_folder_sublime.gif)
 4. Sur l'arbre de navigation de gauche, dans le dossier "cs" vous avez les 2 fichiers sur lesquels nous allons travailler :
   - `index.html`.

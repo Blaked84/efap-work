@@ -89,12 +89,12 @@ au lieu de
 * Copiez collez le contenu ci-dessous dans le `<body>` et assurez vous de bien aligner le texte (selectionnez le texte à indenter et appuyez sur la touche `Tab`)
 ```HTML
 	<h1>John Doe</h1>
-	Expériences
+	<h2>Expériences</h2>
 	2018
 	<h3>Président de la république</h3>
 	Trop bien ce job, j'ai fait des réformes et personne n'a fait grève.
 
-	Etudes
+        <h2>Etudes</h2>
 	2018 
 	<h3>EFAP</h3>
 ```

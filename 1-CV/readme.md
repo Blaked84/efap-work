@@ -321,6 +321,7 @@ body, html{
 
 .item > *{
 	display: inline-block;
+	max-width: 85%;
 }
 
 .date {

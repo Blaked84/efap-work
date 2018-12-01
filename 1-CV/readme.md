@@ -273,7 +273,7 @@ div {
 ```
 
 ## 3.4. Rendons le tous plus lisible avec un peu de CSS !
-Ajoutez les code ci-dessous dans le CSS pour styles le `header` et le `wrapper` 
+Ajoutez les codes ci-dessous dans le CSS pour styles le `header` et le `wrapper` 
 ```css
 .header{
 	background: linear-gradient(to right, #028e47, #00eba4);
@@ -291,7 +291,7 @@ Ajoutez les code ci-dessous dans le CSS pour styles le `header` et le `wrapper`
 }
 ```
 
-Et pour rendre le nom plus lisible dans le CV, changons la couleurs des titres `h1` pour les mettre en blanc (code couleur `#ffffff`)
+Et pour rendre le nom plus lisible dans le CV, changeons la couleurs des titres `h1` pour les mettre en blanc (code couleur `#ffffff`)
 Votre site doit maintenant ressember à ça : 
 ![](./images/image7.png)
 Il commence à prendre forme ! 👍
@@ -339,7 +339,7 @@ Si tout s'est bien passé votre CV ressemble à :
 
 ## 3.6 A vous de jouer !
 ### 3.6.1  Structurer la section "études"
-Reproduiez les étapes du 3.5.1 mais pour la section études cette fois-ci. 
+Reproduisez les étapes du 3.5.1 mais pour la section études cette fois-ci. 
 Résultat :
 ![](./images/image11.png)
 
@@ -364,7 +364,7 @@ Puis dans le css, on va ajouter des propriétés à cette classe pour avoir une 
 ## 4 Personnalisation
 ### 4.1 Remplacez avec votre nom et prénom, expériences et études
 
-Remplacer dans la page les information génériques du DM pour qu'elle soit maintenant à votre nom.
+Remplacer dans la page les informations génériques du DM pour qu'elles soient maintenant à votre nom.
 Modifiez également les études et expérience avec les vôtres (ou alors vous pouvez en inventer !)
 
 ### 4.2 Personnaliser le CSS
@@ -374,7 +374,7 @@ Modifiez le CSS à pour personnaliser votre CV.
 ### 4.3 Ajoutez une autre expérience et étude.
 ### 4.4 Changer la photo
 Il vous faudra mettre une photo dans le dossier `images` puis remplacer son nom dans la balise `<img>`
-Vous pouvez prendre example sur avec la phot existante.
+Vous pouvez prendre example sur avec la photo existante.
 ### 4.5 Page de contact
 
 

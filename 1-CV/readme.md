@@ -12,6 +12,7 @@ Pour atteindre cet objectif, grâce aux quelques notions vues en classe (préreq
 - Renommez le dossier "cv" en "cv_EFAP_101_DUPONT_Martin"
 - Compressez le dossier entier en zip (clic droit sur le dossier > Compresser).
 ![Compress image](images/compress.png)
+ Ou sur windows: https://support.microsoft.com/fr-fr/help/14200/windows-compress-uncompress-zip-files
 - Envoyez-moi par mail le dossier compressé avec l'objet "CV EFAP 1ARD DUPONT Martin"
 
 Bon courage !
